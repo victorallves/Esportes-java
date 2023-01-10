@@ -2,42 +2,54 @@ package br.com.magna.sistemas.esportes.modelo;
 
 public class Esportes {
 
-	private int pontuacao;
-	private double tempoDeJogo;
+	private Integer pontuacao;
+	private Integer tempoDeJogoEmMin;
 	private String ligas;
 	private String equipes;
-	private String regras;
+	private String regras;	
 	private String equipamento;
-	private int numeroDeJogadores;
-	
-	
+	private Integer numeroDeJogadores;
+
 	public int getPontuacao() {
 		return pontuacao;
 	}
-	public void setPontuacao(int pontuacao) {
+
+	public void setPontuacao(Integer pontuacao) {
 		this.pontuacao = pontuacao;
 	}
-	public double getTempoDeJogo() {
-		return tempoDeJogo;
+
+	public Integer getTempoDeJogoEmMin() {
+		return tempoDeJogoEmMin;
 	}
-	public void setTempoDeJogo(double tempoDeJogo) {
-		this.tempoDeJogo = tempoDeJogo;
+
+	public void setTempoDeJogoEmMin(Integer tempoDeJogoEmMin) {
+		this.tempoDeJogoEmMin = tempoDeJogoEmMin;
 	}
+
+	public void setNumeroDeJogadores(Integer numeroDeJogadores) {
+		this.numeroDeJogadores = numeroDeJogadores;
+	}
+
 	public String getLigas() {
 		return ligas;
 	}
+
 	public void setLigas(String ligas) {
 		this.ligas = ligas;
 	}
+
 	public String getEquipes() {
 		return equipes;
 	}
+
 	public void setEquipes(String equipes) {
 		this.equipes = equipes;
 	}
+
 	public String getRegras() {
 		return regras;
 	}
+
 	public void setRegras(String regras) {
 		this.regras = regras;
 	}
@@ -45,6 +57,7 @@ public class Esportes {
 	public String getEquipamento() {
 		return equipamento;
 	}
+
 	public void setEquipamento(String equipamento) {
 		this.equipamento = equipamento;
 	}
@@ -52,10 +65,9 @@ public class Esportes {
 	public int getNumeroDeJogadores() {
 		return numeroDeJogadores;
 	}
+
 	public void setNumeroDeJogadores(int numeroDeJogadores) {
 		this.numeroDeJogadores = numeroDeJogadores;
 	}
-	
+
 }
-
-

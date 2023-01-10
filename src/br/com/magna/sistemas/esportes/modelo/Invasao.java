@@ -4,7 +4,7 @@ public class Invasao extends Esportes {
 
 	String ataque;
 	String defesa;
-	int placar;
+	Integer placar;
 	String gol;
 	String cesta;
 	
