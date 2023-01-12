@@ -1,15 +1,12 @@
 package br.com.magna.sistemas.esportes.modelo;
 
-import br.com.magna.sistemas.esportes.interfaces.Campo;
+public class Taco extends Esportes {
 
-public class Taco extends Esportes implements Campo {
+	String rebatedor;
+	String lancador;
+	String base;
 
-	 String rebatedor;
-	 String lancador;
-	 String base;
-	 
-	 
-	 public String getRebatedor() {
+	public String getRebatedor() {
 		return rebatedor;
 	}
 
@@ -34,7 +31,7 @@ public class Taco extends Esportes implements Campo {
 	}
 
 	public String tacada() {
-		 return "tacada realizada";
-	 }
-	 
+		return "tacada realizada";
+	}
+
 }
