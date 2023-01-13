@@ -5,7 +5,6 @@ import br.com.magna.sistemas.esportes.modelo.Marca;
 
 public class Atletismo extends Marca implements Pista{
 
-	private final String nomeEsporte = "Atletismo";
 	
 	public String correr() {
 		return "correndo";
@@ -20,9 +19,9 @@ public class Atletismo extends Marca implements Pista{
 	}
 
 	@Override
-	public String especificacaoPista() {
+	public String tipoDePista() {
 		// TODO Auto-generated method stub
-		return "Pista de " + nomeEsporte;
+		return "Pista de Atletismo";
 	}
 	
 }

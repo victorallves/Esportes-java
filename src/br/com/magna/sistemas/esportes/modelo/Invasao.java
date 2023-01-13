@@ -49,7 +49,7 @@ public class Invasao extends Esportes{
 	}
 
 	public String chutar() {
-		return "chute";
+		return "chutou";
 	}
 	
 	public String arremessar() {

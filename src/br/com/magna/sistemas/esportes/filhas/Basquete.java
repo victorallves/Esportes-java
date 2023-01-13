@@ -5,7 +5,6 @@ import br.com.magna.sistemas.esportes.modelo.Invasao;
 
 public class Basquete extends Invasao implements Quadra {
 	
-	private final String nomeEsporte = "Basquete";
 
 	public String bloquear() {
 		return "bloqueado";
@@ -16,8 +15,8 @@ public class Basquete extends Invasao implements Quadra {
 	}
 
 	@Override
-	public String especificacaoQuadra() {
-		return "Quadra de " + nomeEsporte;
+	public String tipoDeQuadra() {
+		return "Quadra de Basquete ";
 	}
 	
 }
