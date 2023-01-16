@@ -1,6 +1,7 @@
 package br.com.magna.sistemas.esportes.teste;
 
 import br.com.magna.sistemas.esportes.filhas.Basquete;
+import br.com.magna.sistemas.esportes.filhas.Beisebol;
 import br.com.magna.sistemas.esportes.filhas.Futebol;
 import br.com.magna.sistemas.esportes.filhas.Surf;
 
@@ -29,6 +30,16 @@ public class Principal {
 		System.out.println(basquete.arremessar());
 		System.out.println(basquete.bloquear());
 		System.out.println(basquete.driblar());
+		
+		System.out.println("------------------");
+		
+		Beisebol bs = new Beisebol();
+		
+		bs.setNumeroDeJogadores(12);
+		
+		
+		
+		
 	}
 
 }
