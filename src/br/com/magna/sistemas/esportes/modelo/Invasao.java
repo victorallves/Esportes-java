@@ -1,6 +1,6 @@
 package br.com.magna.sistemas.esportes.modelo;
 
-public class Invasao extends Esportes{
+public abstract class Invasao extends Esportes{
 
 	String ataque;
 	String defesa;

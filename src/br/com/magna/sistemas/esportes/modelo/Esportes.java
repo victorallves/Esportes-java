@@ -1,6 +1,6 @@
 package br.com.magna.sistemas.esportes.modelo;
 
-public class Esportes {
+public abstract class Esportes {
 
 	private Integer pontuacao;
 	private Integer tempoDeJogoEmMin;

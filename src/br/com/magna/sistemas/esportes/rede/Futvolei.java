@@ -10,7 +10,5 @@ public class Futvolei extends Rede implements Quadra{
 		// TODO Auto-generated method stub
 		return "quadra de areia";
 	}
-
-	
 	
 }

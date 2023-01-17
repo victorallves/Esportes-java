@@ -1,6 +1,6 @@
 package br.com.magna.sistemas.esportes.modelo;
 
-public class Rede extends Esportes {
+public abstract class Rede extends Esportes {
 
 	Integer sets;
 	String rede;
