@@ -30,6 +30,10 @@ public class Esportes {
 		this.numeroDeJogadores = numeroDeJogadores;
 	}
 
+	public Integer getNumeroDeJogadores() {
+		return numeroDeJogadores;
+	}
+
 	public String getLigas() {
 		return ligas;
 	}
@@ -60,14 +64,6 @@ public class Esportes {
 
 	public void setEquipamento(String equipamento) {
 		this.equipamento = equipamento;
-	}
-
-	public int getNumeroDeJogadores() {
-		return numeroDeJogadores;
-	}
-
-	public void setNumeroDeJogadores(int numeroDeJogadores) {
-		this.numeroDeJogadores = numeroDeJogadores;
 	}
 
 }
