@@ -2,11 +2,11 @@ package br.com.magna.sistemas.esportes.modelo;
 
 public abstract class Invasao extends Esportes{
 
-	String ataque;
-	String defesa;
-	Integer placar;
-	String gol;
-	String tabela;
+	private String ataque;
+	private String defesa;
+	private Integer placar;
+	private String gol;
+	private String tabela;
 	
 	public String getAtaque() {
 		return ataque;

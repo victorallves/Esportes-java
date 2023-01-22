@@ -2,8 +2,8 @@ package br.com.magna.sistemas.esportes.modelo;
 
 public abstract class Precisao extends Esportes {
 
-	String mira;
-	String alvo;
+	private String mira;
+	private String alvo;
 	
 	
 	public String getMira() {
@@ -28,6 +28,14 @@ public abstract class Precisao extends Esportes {
 	
 	public String lancar() {
 		return "Lançamento realizado";
+	}
+	
+	public String Mira() {
+		return "mirando";
+	}
+	
+	public String alvo() {
+		return "acertou o alvo";
 	}
 	
 }

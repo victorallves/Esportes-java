@@ -2,8 +2,8 @@ package br.com.magna.sistemas.esportes.modelo;
 
 public abstract class Tecnico extends Esportes {
 
-	String manobra;
-	String juri;
+	private String manobra;
+	private String juri;
 
 	public String getManobra() {
 		return manobra;
@@ -29,7 +29,7 @@ public abstract class Tecnico extends Esportes {
 		return "equilibrado";
 	}
 
-	public String manobrar() {
+	public String manobra() {
 		return "manobra";
 	}
 

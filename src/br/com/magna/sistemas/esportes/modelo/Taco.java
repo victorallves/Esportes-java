@@ -2,9 +2,9 @@ package br.com.magna.sistemas.esportes.modelo;
 
 public abstract class Taco extends Esportes {
 
-	String rebatedor;
-	String lancador;
-	String base;
+	private String rebatedor;
+	private String lancador;
+	private String base;
 
 	public String getRebatedor() {
 		return rebatedor;

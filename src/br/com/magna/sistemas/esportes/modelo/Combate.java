@@ -2,8 +2,8 @@ package br.com.magna.sistemas.esportes.modelo;
 
 public abstract class Combate extends Esportes {
 	
-	String tecnica;
-	Double forca;
+	private String tecnica;
+	private Double forca;
 	
 	public String getTecnica() {
 		return tecnica;

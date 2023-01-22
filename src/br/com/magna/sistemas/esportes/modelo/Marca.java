@@ -2,9 +2,9 @@ package br.com.magna.sistemas.esportes.modelo;
 
 public abstract class Marca extends Esportes {
 
-	double distancia;
-	double tempo;
-	double limite;
+	private Double distancia;
+	private Double tempo;
+	private Double limite;
 	
 	public double getDistancia() {
 		return distancia;

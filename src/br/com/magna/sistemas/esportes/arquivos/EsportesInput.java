@@ -1,23 +1,53 @@
 package br.com.magna.sistemas.esportes.arquivos;
 
-import java.io.File;
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
 import java.io.IOException;
-import java.util.Scanner; 
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.io.OutputStream;
+import java.io.OutputStreamWriter;
+import java.io.Reader;
+import java.io.Writer; 
 
 public class EsportesInput {
 
 	public static void main(String[] args) throws  IOException {
 	
-	      File myObj = new File("C:\\dev\\workspaces\\Esportes-java\\src\\br\\com\\magna\\sistemas\\esportes\\arquivos\\Esportes.csv");
+	                  
+	      InputStream fis = new FileInputStream("C:\\Users\\User\\eclipse-workspace\\Esportes\\src\\br\\com\\magna\\sistemas\\esportes\\arquivos\\Esportes.csv");
+	      Reader isr = new InputStreamReader(fis,"UTF-8");
+	      BufferedReader br = new BufferedReader(isr);
+
+	      OutputStream fos = new FileOutputStream("C:\\Users\\User\\eclipse-workspace\\Esportes\\src\\br\\com\\magna\\sistemas\\esportes\\arquivos\\Esportes.txt");
+	      Writer osw = new OutputStreamWriter(fos,"UTF-8");
+	      BufferedWriter bfw = new BufferedWriter(osw);
 	      
-	      Scanner myReader = new Scanner(myObj);
 	      
-	      while (myReader.hasNextLine()) {
-	        String data = myReader.nextLine();
-	        System.out.println(data);
+	      String linha = br.readLine();
+	      
+	      while(linha != null) {
+	    	  bfw.write(linha);;
+	    	  bfw.newLine();
+	    	  linha = br.readLine();
 	      }
 	      
-	      myReader.close();
 	      
+	      br.close();
+	      bfw.close();
+	      
+	    
 	}
 }
+
+
+//Scanner scanner = new Scanner(arquivo);
+
+//while (scanner.hasNextLine()) {
+ // String linha = scanner.nextLine();
+//  System.out.println(linha);
+//}
+
+//scanner.close();
