@@ -68,7 +68,7 @@ import br.com.magna.sistemas.esportes.rede.Tenis;
 import br.com.magna.sistemas.esportes.rede.TenisDeMesa;
 import br.com.magna.sistemas.esportes.rede.Volei;
 import br.com.magna.sistemas.esportes.taco.Beisebol;
-import br.com.magna.sistemas.esportes.taco.Criquete;
+import br.com.magna.sistemas.esportes.taco.Cricket;
 import br.com.magna.sistemas.esportes.taco.Softbol;
 import br.com.magna.sistemas.esportes.tecnico.Ginastica;
 import br.com.magna.sistemas.esportes.tecnico.NadoSincronizado;
@@ -572,8 +572,8 @@ public  class TesteJunit  {
     @Test
     public void testCriquete() {
     
-    	Criquete criq = new Criquete();
-    	Criquete criq2 = new Criquete();
+    	Cricket criq = new Cricket();
+    	Cricket criq2 = new Cricket();
     	
     	criq.setModalidadeDoCriquete(EnumModalidadeDeCriquete.ONE_DAY);
     	criq2.setModalidadeDoCriquete(EnumModalidadeDeCriquete.TEST_CRICKET);

@@ -34,7 +34,7 @@ public class EsportesInput {
 	    	  linha = br.readLine();
 	      }
 	      
-	      
+	       
 	      br.close();
 	      bfw.close();
 	      

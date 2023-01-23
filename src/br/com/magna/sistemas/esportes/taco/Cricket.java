@@ -6,7 +6,7 @@ import br.com.magna.sistemas.esportes.enums.EnumModalidadeDeCriquete;
 import br.com.magna.sistemas.esportes.interfaces.Campo;
 import br.com.magna.sistemas.esportes.modelo.Taco;
 
-public class Criquete extends Taco implements Campo {
+public class Cricket extends Taco implements Campo {
 
 	private EnumModalidadeDeCriquete ModalidadeDoCriquete;
 	
@@ -31,8 +31,8 @@ public class Criquete extends Taco implements Campo {
 
 	@Override
 	public boolean equals(Object obj) {
-		if((obj instanceof Criquete)) {
-			Criquete obj2 = (Criquete) obj;
+		if((obj instanceof Cricket)) {
+			Cricket obj2 = (Cricket) obj;
 		    return this.ModalidadeDoCriquete.equals(obj2.getModalidadeDoCriquete());
 		}else {
 			return false;

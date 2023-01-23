@@ -5,3 +5,25 @@ BBC,46M,lançar uma pedra de granito maciço em direção a um alvo chamado de c
 WCF ,2H,marcar o maior número de pontos,para cada passagem através de um postigo na direção e ordem correta,N,marreta de croquet,1,S,S,N,N,N,N,N,N,N,N,N,N,croquet
 WSL,30M,deslizar sobre as ondas ,são avaliadas as duas melhores ondas de cada competidor e suas manobras,N,prancha de surf,1,N,N,S,S,N,N,N,N,N,N,N,N,surf
 ISU,5M,dançar sobre os patins,sâo avalidas as manobras e saltos sem a perda do equilibrio ,N,patins,2,N,N,S,S,N,N,N,N,N,N,N,N,patinação artistica
+FINA,3M,seguir o ritimo da musica na agua,dificuldade dos movimentos e sincronia da execução,argentina,maio e protetor nasal,4,N,N,S,S,N,N,N,N,N,N,N,N,nado sincronizado
+FINA,N,saltar de um jeito especifico de cima de um trampolim,dificuldade dos movimentos e da execução,china,sunga ou maio,2,N,N,S,S,N,N,N,N,N,N,N,N,saltos ornamentais
+FIG,1M,fazer movimentos acrobaticos perfeitos ,dificuldade dos movimentos e da execução,russia,cavalo e argola,1,N,N,S,S,N,N,N,N,N,N,N,N,ginastica
+WBA,20M,nocautear o adversario,acertos de golpe no adversario,N,luva de boxe e protetor bucal,1,N,N,N,N,S,S,N,N,N,N,N,N,boxe
+IJF,5M,projetar o adversario de costas no solo,imobilizar o adversario,japao,kimono e faixa,1,N,N,N,N,S,S,N,N,N,N,N,N,judo
+WT,3M,atingir o adversario com socos e chutes ,acertos de golpe em locais especificos do adversario,japao,capacete e protetor de torax,1,N,N,N,N,S,S,N,N,N,N,N,N,taekwondo
+FIE,9M,tocar o adversario com a espada,tocar ou raspar o corpo do adversario com a espada,frança,equipamento de proteção e florete,1,N,N,N,N,S,S,N,N,N,N,N,N,esgrima
+IOGKF,3M,acertar socos e chutes no adversario,ganha quem abre 8 pontos de vantagem,suiça,kimono e protetor de torax,1,N,N,N,N,S,S,N,N,N,N,N,N,karate
+WMC,15M,finalizar o adversario,imobilizar o adversario,tailandia,luva de boxe e protetor bucal,1,N,N,N,N,S,S,N,N,N,N,N,N,muayThai
+UFC,9M,nocautear o adversario,acertos de golpe no adversario,Estados Unidos,luva de boxe e protetor bucal,1,N,N,N,N,S,S,N,N,N,N,N,N,mma
+FIS,N,completar o percurso o mais rapido possivel,saltos  ,suecia,prancha de esqui e roupas termicas,1,N,N,S,N,N,N,S,S,S,N,N,N,esqui
+N,N,escalar a montanha ou parede o mais rapido possivel,N,N,corda e mosquete,1,N,N,N,N,N,N,S,S,S,N,N,N,escalada
+UCI,15M,completar o percurso o mais rapido possivel,N,suiça,bicicleta e capacete,1,N,N,N,N,N,N,S,S,S,N,N,N,ciclismo
+IAAF,N,passar a faixa para o colega de equipe,N,jamaica,peso e disco,3,N,N,N,N,N,N,S,S,S,N,N,N,atletismo
+ICC,3H,marcar o maior numero de corridas possiveis ,marca pontos ao chegar na base adversaria ,australia,cricket bat e capacete,11,N,N,N,N,N,N,N,N,N,S,S,S,cricket
+NPF,3H,marcar o maior numero de corridas possiveis ,marca pontos ao chegar na base adversaria,chicago bandits,luva de softboll e taco ,9,N,N,N,N,N,N,N,N,N,S,S,S,softboll
+MBLA,3H,marcar o maior numero de corridas possiveis ,marca pontos ao chegar na base adversaria,houston astros,luva de baiseboll e taco ,9,N,N,N,N,N,N,N,N,N,S,S,S,baiseboll
+FIVB,3H,fazer a bola cruzar a rede e cair no campo do adversario,bola toca no campo do adversario ,Brasil ,bola de volei,6,N,N,N,N,N,N,N,N,N,N,N,N,volei
+NBA,2H,fazer mais pontos que o adversario,acertar a cesta do adversario,Memphis Grizzlies,bola de basquete e protetor bucal,5,S,S,N,N,N,N,N,N,N,N,N,N,basquete
+NHL,3H,fazer mais gols que o adversario,acertar o gol do adversario,Pittsburgh Penguins,patins e taco de hoquei,6,S,S,N,N,N,N,N,N,N,N,N,N,hoquei
+FIFA,1:30M,fazer mais gols que o adversario,acertar o gol do adversario,chealsea,bola de futebol,11,N,S,N,N,N,N,N,N,N,N,N,N,futebol
+NFL,2:30M,marcar o maior numero de corridas possiveis ,touchdown,kansas city chiefs,bola de futebol americano e equipamento de proteção,11,S,S,N,N,N,S,S,N,N,N,N,N,futebol americano
