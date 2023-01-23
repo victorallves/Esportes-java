@@ -25,7 +25,7 @@ public class Mma extends Combate implements Ringue{
 	
 	@Override
 	public String toString() {
-		return "Tipo de Ringue: " + getTipoRingue() + " " + "MMA: " + defenderGolpe() + ", " +  desviarGolpe() + ", " + ", " + golpear();
+		return "Tipo de Ringue: " + getTipoRingue() + " " + "MMA: " + defenderGolpe() + ", " +  desviarGolpe() + ", " + golpear();
 	}
 	
 	@Override

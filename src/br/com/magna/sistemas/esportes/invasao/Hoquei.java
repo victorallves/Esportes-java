@@ -32,7 +32,7 @@ public class Hoquei extends Invasao implements Pista {
 	
 	@Override
 	public String toString() {
-		return "Tipo de Pista: " + getTipoPista() + "Hoquei: " + ": " + getAtaque() + ", " +  trombar() + ", " + ", " + patinar() + ", " + defender() + ", " + passarBola() + ", " + chutar();
+		return "Tipo de Pista: " + getTipoPista() + " Hoquei: " + getAtaque() + ", " +  trombar() + ", "  + patinar() + ", " + defender() + ", " + passarBola() + ", " + chutar();
 	}
 	
 	@Override

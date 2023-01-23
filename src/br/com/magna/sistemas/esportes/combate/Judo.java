@@ -29,7 +29,7 @@ public class Judo extends Combate implements Ringue {
 
 	@Override
 	public String toString() {
-		return "Tipo de Ringue: " + getTipoRingue() + " " + "judô: " + defenderGolpe() + ", " +  desviarGolpe() + ", " + ", " + golpear();
+		return "Tipo de Ringue: " + getTipoRingue() + " " + "judô: " + defenderGolpe() + ", " +  desviarGolpe() + ", "  + golpear();
 	}
 	
 	@Override

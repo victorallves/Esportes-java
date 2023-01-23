@@ -10,6 +10,7 @@ public class Rugby extends Invasao implements Campo {
 
 	private EnumModalidadeDeRugby ModalidadeRugby;
 	
+	
 	public TipoCampo getTipoCampo() {
 		return Campo.TipoCampo.CAMPO_RUGBY;
 		

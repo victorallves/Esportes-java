@@ -6,7 +6,7 @@ public abstract class Esportes {
 	private Integer tempoDeJogoEmMin;
 	private String ligas;
 	private String equipes;
-	private String regras;	
+	private String objetivo;	
 	private String equipamento;
 	private Integer numeroDeJogadores;
 
@@ -51,11 +51,11 @@ public abstract class Esportes {
 	}
 
 	public String getRegras() {
-		return regras;
+		return objetivo;
 	}
 
 	public void setRegras(String regras) {
-		this.regras = regras;
+		this.objetivo = regras;
 	}
 
 	public String getEquipamento() {

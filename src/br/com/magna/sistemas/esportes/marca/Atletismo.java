@@ -36,7 +36,7 @@ public class Atletismo extends Marca implements Pista{
 	
 	@Override
 	public String toString() {
-		return "Tipo da Pista: " + getTipoPista() + " " + "Atletismo: " +  correr() + ", " +  pular() + ", " + ", " + baterMeta();
+		return "Tipo da Pista: " + getTipoPista() + " " + "Atletismo: " +  correr() + ", " +  pular() + ", "  + arremessar() +  ", " + baterMeta();
 	}
 	
 	@Override

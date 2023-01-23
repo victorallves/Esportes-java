@@ -1,1 +1,7 @@
-lorem,ipsum,lorem,ipsum
+Ligas,TempoDeJogo,Objetivo,Pontuação,Equipes,Equipamentos,NumeroDeJogadores,Mira,Alvo,Manobras,Juri,Tecnica,Força,Distancia,Tempo,Limite,Base,Rebatedor,Lançador,
+FITA,1H,acertar o alvo em diferentes posiçoes,"quanto mais ao centro a flecha alcançar, mais pontos o atleta soma",coreia do sul ,arco e flecha,1,S,S,N,N,N,N,N,N,N,N,N,N,tiro com Arco
+US_Open,4H,acertar a bolinha em todos os buracos do campo,a pontuação é baseada na diferença entre o número de tacadas e o par do buraco,N, taco de golfe,1,S,S,N,N,N,N,N,N,N,N,N,N,golfe
+BBC,46M,lançar uma pedra de granito maciço em direção a um alvo chamado de casa,ganha quem tem maior número de pedras próximas da área marcada ,canada ,pedra de granito,4,S,S,N,N,N,N,N,N,N,N,N,N,curling
+WCF ,2H,marcar o maior número de pontos,para cada passagem através de um postigo na direção e ordem correta,N,marreta de croquet,1,S,S,N,N,N,N,N,N,N,N,N,N,croquet
+WSL,30M,deslizar sobre as ondas ,são avaliadas as duas melhores ondas de cada competidor e suas manobras,N,prancha de surf,1,N,N,S,S,N,N,N,N,N,N,N,N,surf
+ISU,5M,dançar sobre os patins,sâo avalidas as manobras e saltos sem a perda do equilibrio ,N,patins,2,N,N,S,S,N,N,N,N,N,N,N,N,patinação artistica

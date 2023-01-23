@@ -6,7 +6,7 @@ import br.com.magna.sistemas.esportes.enums.EnumEstilosDeCarate;
 import br.com.magna.sistemas.esportes.interfaces.Ringue;
 import br.com.magna.sistemas.esportes.modelo.Combate;
 
-public class Carate extends Combate implements Ringue{
+public class Karate extends Combate implements Ringue{
 
 	private EnumEstilosDeCarate EstiloDeCarate;
 	
@@ -25,13 +25,13 @@ public class Carate extends Combate implements Ringue{
 	
 	@Override
 	public String toString() {
-		return "Tipo de Ringue: " + getTipoRingue() + " " + "Carate: " + defenderGolpe() + ", " +  desviarGolpe() + ", " + ", " + golpear();
+		return "Tipo de Ringue: " + getTipoRingue() + " " + "Carate: " + defenderGolpe() + ", " +  desviarGolpe() + ", "  + golpear();
 	}
 	
 	@Override
 	public boolean equals(Object obj) {
-		if((obj instanceof Carate)) {
-			Carate obj2 = (Carate) obj;
+		if((obj instanceof Karate)) {
+			Karate obj2 = (Karate) obj;
 		    return this.EstiloDeCarate.equals(obj2.getEstiloDeCarate());
 		}else {
 			return false;

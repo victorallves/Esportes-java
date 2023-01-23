@@ -28,7 +28,7 @@ public class Taekwondo extends Combate implements Ringue{
 	
 	@Override
 	public String toString() {
-		return "Tipo de Ringue: " + getTipoRingue() + " " + "Taekwondo: " + defenderGolpe() + ", " +  desviarGolpe() + ", " + ", " + golpear();
+		return "Tipo de Ringue: " + getTipoRingue() + " " + "Taekwondo: " + defenderGolpe() + ", " +  desviarGolpe() + ", " + golpear();
 	}
 	
 	@Override

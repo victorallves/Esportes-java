@@ -41,13 +41,4 @@ public class EsportesInput {
 	    
 	}
 }
-
-
-//Scanner scanner = new Scanner(arquivo);
-
-//while (scanner.hasNextLine()) {
- // String linha = scanner.nextLine();
-//  System.out.println(linha);
-//}
-
-//scanner.close();
+  

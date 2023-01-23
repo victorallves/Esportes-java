@@ -25,7 +25,7 @@ public class MuayThai extends Combate implements Ringue{
 
 	@Override
 	public String toString() {
-		return "Tipo de Ringue: " + getTipoRingue() + " " + "Muay-Thai: " + defenderGolpe() + ", " +  desviarGolpe() + ", " + ", " + golpear();
+		return "Tipo de Ringue: " + getTipoRingue() + " " + "Muay-Thai: " + defenderGolpe() + ", " +  desviarGolpe() + ", "  + golpear();
 	}
 	
 	@Override
