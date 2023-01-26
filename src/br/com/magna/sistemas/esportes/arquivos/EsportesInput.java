@@ -21,7 +21,7 @@ public class EsportesInput {
 	      Reader isr = new InputStreamReader(fis,"UTF-8");
 	      BufferedReader br = new BufferedReader(isr);
 
-	      OutputStream fos = new FileOutputStream("C:\\Users\\User\\eclipse-workspace\\Esportes\\src\\br\\com\\magna\\sistemas\\esportes\\arquivos\\Esportes.txt");
+	      OutputStream fos = new FileOutputStream("C:\\Users\\User\\eclipse-workspace\\Esportes\\src\\br\\com\\magna\\sistemas\\esportes\\arquivos\\saidaEsportes.csv");
 	      Writer osw = new OutputStreamWriter(fos,"UTF-8");
 	      BufferedWriter bfw = new BufferedWriter(osw);
 	      
@@ -38,7 +38,8 @@ public class EsportesInput {
 	      br.close();
 	      bfw.close();
 	      
-	    
+	     
 	}
 }
   
+   
